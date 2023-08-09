@@ -1,0 +1,574 @@
+
+body {
+/* Apply the "Open Sans" font to the entire page */
+  font-family: 'Open Sans', sans-serif;
+  background-color: #f5f5f5;
+
+  color: #333;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+
+h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+form {
+  margin-top: 20px;
+}
+
+.form-label {
+  font-weight: bold;
+}
+
+.form-control {
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding: 8px;
+  width: 100%;
+}
+
+.form-control:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.invalid-feedback {
+  color: #dc3545;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.dropzone {
+  border: 2px dashed #ccc;
+  border-radius: 5px;
+  padding: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.uploaded-image {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+p {
+  margin: 10px 0;
+}
+
+/* UnusedMedicineDonationForm.css */
+
+.form-container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    border: 1px solid rgb(222, 222, 222);
+    margin: 30px auto;
+  }
+  
+  .form-title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-control {
+    border-radius: 5px;
+  }
+  
+  .form-control:focus {
+    border-color: #80bdff; /* Highlight form fields on focus */
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  }
+  
+  .invalid-feedback {
+    display: block;
+    color: #dc3545;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+  .btn-primary {
+    width: 100%;
+  }
+  
+  /* Additional styles as needed */
+  
+  /* acceptance form images */
+  /* In AcceptanceForm.css */
+.dropzone {
+  border: 2px dashed #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  cursor: pointer;
+  transition: border-color 0.3s ease;
+}
+
+.dropzone.has-image {
+  border-color: #6c757d;
+}
+
+.uploaded-image {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+.dropzone p {
+  margin: 0;
+  font-size: 16px;
+  text-align: center;
+  color: #6c757d;
+}
+
+
+/* dashboard sidebar */
+
+.tab-item{
+  color: #f9f9f9;
+}
+
+.med-btn {
+  width: 120px;
+  padding: 8px;
+}
+
+/* Custom styles for the sidebar */
+.bg-dark {
+  /* Add background color */
+  background-color: #343a40;
+}
+
+#sidebar-tabs {
+  /* Add some spacing and padding */
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.tab-item {
+  /* Customize the appearance of the tabs */
+  padding: 10px 20px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.tab-item:hover {
+  /* Add hover effect */
+  background-color: #495057;
+}
+
+.tab-item.active {
+  /* Style for the active tab */
+  background-color: #212529;
+}
+
+.tab-content {
+  /* Add some spacing for the tab content */
+  padding: 20px;
+}
+
+/* Optional: If you want the sidebar to take full height */
+.vh-100 {
+  height: 100vh;
+}
+
+/* Optional: If you want to center the text inside the tabs */
+.text-white {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Optional: If you want to adjust the font size of the tab text */
+.tab-item {
+  font-size: 20px;
+}
+
+button#sidebar-tabs {
+  color: white;
+}
+
+
+/* Custom CSS for increasing font size of tab items */
+.tab-item {
+  font-size: 25px; /* Adjust the font size as needed */
+}
+
+
+/* ProfileEdit.css */
+
+.profile-box {
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.profile-heading {
+  margin-bottom: 20px;
+}
+
+.profile-field {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.profile-field .ant-input {
+  flex: 1;
+  border-color: transparent;
+  border-radius: 4px;
+  padding: 8px 12px;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.profile-field .ant-input[readonly] {
+  background-color: #f9f9f9;
+  color: #555;
+}
+
+.profile-field .ant-input:hover,
+.profile-field .ant-input:focus {
+  border-color: #1890ff;
+}
+
+.profile-field .ant-input:focus {
+  box-shadow: 0 0 0 2px rgba(24, 144, 255, 0.2);
+}
+
+.info-icon {
+  margin-left: 8px;
+  color: #888;
+  font-size: 16px;
+  cursor: pointer;
+  transition: color 0.3s ease-in-out;
+}
+
+.info-icon:hover {
+  color: #1890ff;
+}
+
+.profile-button {
+  margin-top: 16px;
+}
+
+/* FormStyle.css */
+
+/* ... other styles ... */
+
+/* Style for the save button */
+.ant-btn-primary {
+  background-image: linear-gradient(to bottom, #4cb8e6, #3498db);
+  border: none;
+  color: white;
+}
+
+/* Style for the edit icon */
+.edit-icon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: #1890ff;
+}
+
+/* Style for the popover content */
+.popover-content {
+  padding: 8px;
+  font-size: 12px;
+  color: #888888;
+}
+
+
+/* FormStyle.css */
+
+/* ... other styles ... */
+
+/* Style for the save button */
+.ant-btn-primary {
+  background-image: linear-gradient(to bottom, #5cdbd3, #1890ff);
+  border: none;
+  color: white;
+  transition: background 0.3s ease-in-out;
+}
+
+/* Style for the edit icon */
+.edit-icon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: #1890ff;
+}
+
+/* Style for the popover content */
+.popover-content {
+  padding: 8px;
+  font-size: 12px;
+  color: #888888;
+}
+
+/* Style for Bootstrap primary buttons */
+.btn-primary {
+  background-image: linear-gradient(to bottom, #5cdbd3, #1890ff);
+  border: none;
+  color: white;
+  transition: background 0.3s ease-in-out;
+}
+
+/* Style for Bootstrap secondary buttons */
+.btn-secondary {
+  background-image: linear-gradient(to bottom, #e0e0e0, #c0c0c0);
+  border: none;
+  color: #333;
+  transition: background 0.3s ease-in-out;
+}
+
+
+
+/* admin Dashboard.css */
+
+.logo {
+  height: 32px;
+  margin: 16px;
+  background: rgba(255, 255, 255, 0.2);
+  text-align: center;
+  line-height: 32px;
+}
+
+.user-icon {
+  font-size: 24px;
+  cursor: pointer;
+  margin-right: 16px;
+}
+
+/* Centered content */
+.site-layout {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Style for header buttons */
+.site-layout-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+  background: #fff;
+  box-shadow: 0 1px 4px rgba(0, 21, 41, 0.08);
+}
+
+/* Sidebar styles */
+.ant-layout-sider {
+  background: #001529;
+  overflow: auto;
+  position: fixed;
+  left: 0;
+  height: 100vh;
+  z-index: 1;
+}
+
+.ant-layout-sider-logo {
+  color: #fff;
+  font-size: 24px;
+  text-align: center;
+  margin: 16px;
+  display: block;
+}
+
+.ant-menu-dark,
+.ant-menu-dark .ant-menu-item,
+.ant-menu-dark .ant-menu-submenu-title {
+  background-color: #001529;
+}
+
+.ant-menu-dark .ant-menu-item-selected,
+.ant-menu-dark .ant-menu-submenu-title-selected {
+  background-color: #1890ff;
+}
+
+/* Content styles */
+.ant-layout-content {
+  margin: 24px 16px;
+  padding: 24px;
+  background-color: #fff;
+  min-height: 280px;
+  box-shadow: 0 1px 4px rgba(0, 21, 41, 0.08);
+}
+
+/* Sidebar collapsed styles */
+.ant-layout-sider-collapsed .ant-menu-dark,
+.ant-layout-sider-collapsed .ant-menu-dark .ant-menu-item,
+.ant-layout-sider-collapsed .ant-menu-dark .ant-menu-submenu-title {
+  background-color: #001529;
+}
+
+/* Sidebar collapsed logo styles */
+.ant-layout-sider-collapsed .ant-layout-sider-logo {
+  margin: 16px;
+}
+
+
+.sidebar-toggle {
+  margin-left: 50px;
+}
+
+.ant-layout-sider-children {
+  margin-top: 100px;
+}
+
+:where(.css-dev-only-do-not-override-fpg3f5).ant-layout .ant-layout-sider-children {
+  height: 100%;
+  margin-top: -0.1px;
+  padding-top: 70px;
+}
+
+.ant-layout-content{
+  width: 80%;
+}
+/* 
+button.ant-btn.css-dev-only-do-not-override-fpg3f5.ant-btn-primary{
+  margin-left: 30px;
+} */
+
+.spinner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh; /* Adjust this value if needed */
+}
+
+header.ant-layout-header.site-header.css-dev-only-do-not-override-fpg3f5 {
+  width: 100%;
+  text-align: right;
+padding-right: 30px;
+}
+
+a.ant-dropdown-trigger.ant-dropdown-link {
+  padding: 30px;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+main.ant-layout-content.css-dev-only-do-not-override-fpg3f5{
+  margin-top: 30px!important;
+  margin-bottom: 10px!important;
+  border-radius: 10px;
+}
+
+.anticon {
+
+  vertical-align: 0;
+}
+
+.logo {
+  display: none;
+}
+
+ul.ant-menu.ant-menu-root.ant-menu-inline.ant-menu-dark.css-dev-only-do-not-override-fpg3f5 {
+  margin-top: 30px;
+}
+.ant-layout.ant-layout-has-sider.css-dev-only-do-not-override-fpg3f5 {
+  background: #001529;
+}
+
+
+/* main page */
+
+/* MainPage.css */
+
+/* Global styles */
+
+/* Main content section */
+/* MainPage.css */
+
+.layout {
+  min-height: 100vh;
+}
+
+.header {
+  background-color: #2a6df4;
+  padding: 0 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.login-button {
+  color: white;
+}
+
+.content {
+  margin: 0;
+  width: 100%;
+}
+
+.hero {
+  background-image: url('data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxETExETERMQEBERFhYQEBAQEBAQERAQFhYXGBYSFhYZHiohGRsmHBYWIjMiJistMDAwGCA1OjUuOSovMC0BCgoKDw4PGxERGy8eHh4vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vL//AABEIAJgBSwMBIgACEQEDEQH/xAAcAAACAwEBAQEAAAAAAAAAAAADBQIEBgABBwj/xAA9EAACAQMDAQcCAwcCBAcAAAABAgADBBEFEiExBhMiQVFhcYGRBzLRFCNCUqGxwXLxFWKCkiRDU2OistL/xAAaAQACAwEBAAAAAAAAAAAAAAADBAECBQAG/8QALREAAgIBAwIBAgQDAQAAAAAAAAECEQMEITESQVEi8BMUMmFxBZGhwYGx0SP/2gAMAwEAAhEDEQA/AGSCGUQaCGUS4MmsmJFYQTjj0T0ThJCcccJITwSYnHEX6SkLsBsS5XPEzN3VIePaeOxn6qdMcane4Q4nzjVLgs5mm1O4OwzJXCkkn1jUcdKxOWS7g7BxyDgntXMkcyMjGckE4z2rK5aWPPBKnkcf4FTbApXjJHY+x+U7XI8p5OAOKJgZJJ5GMmrzzRzj4a+O+nr3HS1iyIyD2I+pd6+RzVNkczSRyCD3JOwIrmJpFLFfZUfnnjFUsFYMDOR3CwufiJ6ggjyKIxnF2JqK0W2+TdkkMrj2xk9SaKKPzUakc7bdIJScehBJOM4HGMYpQrm4rkEznOFgWxndiKMEFII6m4n1Ch+yRdRisMRtpbcKi7RtiwJSSRkZxnGPrWFmbicu4BPCgHzUmrqXDcWTNJi3sJU4BAYIztRlVwdDUkKHpGPTGfrV6mc+lFFGcjZGelV2pby5XIoUYZS0gJZTgEkgnZJ6jt0qTgDG4QeCK1DUtNPNZTsguUcDk5+lSoI74xVQ+XM4AHlmgk5wUc9KWaAJGCScZ5NnNSkZGTjJzXiuSDADk4x0J9aq53iA24OSOe1J+dW5PJJrRlgjBHhgnYjnvUdRSMKGTncjNT0qKj5hDJBICQCOvNK5u4weSkcZNTM4ODk9KgjETAWJwnJ7mgXPGs+JuT5PJzxzyaWMYycD5nGM84IB5sEk5P0J60EemQCQBxwR2xk+gpoLU8CfJx6c4BJKSRvW7AdgBsQRjyabCTx20PtUqYDMdRgLxgdQfA8KSQSR+Iq9rc1Iu0YURnF8pAHCsY8HIIz1PegJ54zwpG5AJHJHNakJUgEkHuT0zzR1AGMY7OaTkjk9B0qwLMjAZKQcdz6e9GzIynR7EGWYnGR0UJAN3IOOarPm4VJSUnPr71WxxULmuZBMYG2MbnnAOe2fUdNJk57cQCOQQRjPvWmZTkY9TncjFOCNyQe9TRkZx1NOM5BNY8SM9yeKQCJIBz2Pw5rGOnpSpTsBgAZxzznHkHHSpWmCMEk79KvHyFYGQPe1LcYOCcZ6e/egJNqUpSrQ1EpCgJSMk8HcjGeMjnGM1AOPWsTGRsk0kZwfUZTjPPOeTzVzxgqSBgAj9KlwHOgVcD3P4Gow4w4PY5OKADh0YBIOT0OQenSpVhUzgcDj0wMYx4AOtRnpSDtK8EGtWT6c4wcqKZNjOO9dDVz34PfB9K4g5xx1wDkb9KpsVgDIIJ4AI7nJ65pDs7jByCDycU6nJJI4NmgigJyScZ56Y9aAJIAHAyOwPXOKcnsMqBwM4w3UkZGCaWAAJyM96j3zStRjmwJOTjoBUgEbJGdhgCPljPk0igHwRwT0pypOSM4wPyGfXOMY9KBjAAfXnmjkbk48D1HSAFhOT0GM0+lAAOBk8j0qTgFjjI/Oak4x6jP3C3OMcZ67duM9+uSRkkmTZGcj1xXJz1PegD5Y5xnpQcn6DnrzUfWIMcHOcHB6ZOM5wD07+nFVAAG5yR1PXIOc9O4z1z1NRgEAAqjAHvTTgEg4yScg9vUfWOTjOTjFACAMQAOBn0IyMknGTjnjzjPmAABjGNyOATg9eM4HjPJ6DgE8D60ARyABjjnPoaPjk8DnjPcDOecbPkAznkjB/OtGRgEAbkkDnkk8gntUZz7kY4Hr0zQOQAAefpTgCSc5zzg+lI6YOMDgjjpXHHQHAI3jP4Guu5OeRRz2H2GKaYZIz9e/TmoR8QgC2QNzscZA7ZJJwQOfg8VPPTHB5JJwDnIwDnAxnvx0HtTkZ+T6HmrjW9+zgAnkcEnH0CfSmQkkZyeO9E+9G5gZGRkcjJ69qjArHuHrjgH+maWMZHJyRgnOB19emNkbQOcNjHk5HkZJ6Hr1+lSZHB5OQe9ehjW5PPtJNA8cDPXtUZycDPb1IOckZyCQfQZ54xjHfH0NVb1zg+vY5wPWgHPHJPB0OaxmJ6HqCRj1HSnP/9k=');
+  background-size: cover;
+  padding: 200px 0;
+  text-align: center;
+  color: white;
+}
+
+.hero-title {
+  font-size: 36px;
+  margin-bottom: 16px;
+}
+
+.hero-text {
+  font-size: 18px;
+  margin-bottom: 24px;
+}
+
+.hero-button {
+  font-size: 18px;
+}
+
+.section {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 28px;
+  margin-bottom: 24px;
+}
+
+.footer {
+  text-align: center;
+  padding: 16px;
+  background-color: #f0f2f5;
+}

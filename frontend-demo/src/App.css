@@ -1,0 +1,37 @@
+/* UnusedMedicineDonationForm.css */
+
+.form-container {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+  padding: 20px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.form-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-control {
+  border-radius: 5px;
+}
+
+.form-control:focus {
+  border-color: #80bdff; /* Highlight form fields on focus */
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.invalid-feedback {
+  display: block;
+  color: #dc3545;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.btn-primary {
+  width: 100%;
+}
+
+/* Additional styles as needed */
